@@ -7,7 +7,7 @@ export default function SocialLinks() {
   return (
     <div>
       <div className='social-section'>
-                <img src={giticon} />
+                <img src={giticon}/>
                 <img src={slack} className='logo'/>
 
 

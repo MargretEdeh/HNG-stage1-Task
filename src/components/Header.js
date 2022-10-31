@@ -19,17 +19,17 @@ export default function Header() {
  <h4 id='twitter' className='name'>Edeh Margret</h4>
  <h4 id='slack' style={{display : 'none'}}>MargretEdeh</h4>
  
- {/* <div className='share-div'> */}
-{/* <img src={shareAvatar} alt='share icon'/> */}
-{/* <div className='tooltip'> */}
-  {/* <span className='tool'> Click to share</span> */}
-{/* </div> */}
-
-{/* <div>
+ <div className='share-div'>
+<img src={shareAvatar} alt='share icon'/>
+{/* <div className='tooltip'>
+  <span className='tool'> Click to share</span>
+</div> */}
+{/* 
+{<div>
 <img src={hoverIcon} className='share-hov'/>
 
-</div> */}
- {/* </div> */}
+</div>} */}
+ </div>
 
   </div> 
   {/* <h3 id='slack' >Margret Edeh</h3> */}
