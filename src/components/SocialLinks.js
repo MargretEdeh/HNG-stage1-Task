@@ -2,7 +2,6 @@ import React from 'react'
 import giticon from './giticon.svg'
 import slack from './slack.svg'
 
-
 export default function SocialLinks() {
   return (
     <div>
