@@ -12,24 +12,12 @@ code {
     monospace;
 } */
 
-.body{
-width: 1216px;
-height: 794px;
-display: flex;
-align-items: center;
-padding: 0px 32px;
-/* border: 1px solid; */
-gap: 32px;
-
-}
 .profile-section{
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 0 35px;
-gap: 24px;
-width: 1152px;
-height: 142px;
+margin: 4em;
+
 /* border: 1px solid; */
 }
 .profile-img{
@@ -42,8 +30,27 @@ width: 88px;
 height: 88px;
 border-radius: 275px;
 }
+.profile-hov{
+display: flex;
+flex-direction: column;
+position: absolute;
+justify-content: flex-end;
+align-items: center;
+padding: 0;
+opacity: 0;
+fill: #D0D5DD;
+width: 88px;
+height: 88px;
+border-radius: 275px;
+}
+ .profile-hov:hover{
+  opacity: 2;
+background-color: rgb(0, 0,0,0.5); 
+} 
+.img-icon{
+  padding-bottom: 7px;
+}
 .name{
-width: 1152px;
 height: 30px;
 font-family: 'Inter';
 font-style: normal;
@@ -52,6 +59,7 @@ font-size: 20px;
 line-height: 30px;
 text-align: center;
 color: #101828;
+margin-top: 1.5em;
 }
 .name-sec{
   display: flex;
@@ -62,10 +70,6 @@ padding: 0px;
 gap: 8px;
 width: 1152px;
 height: 30px;
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
 z-index: 1;
 }
 .share{
@@ -80,6 +84,40 @@ right: 0;
 top: 0;
 bottom: 0;
 border-radius: 12px;
+}
+.share-hov{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: none;
+  cursor: pointer;
+}
+
+.share:disabled{
+  color: #eaecf0;
+
+}
+.tooltip{
+  position: absolute;
+  border: 1px solid #eaecf0;
+  padding: 9px 16px;
+  border-radius: 7px;
+  font-size: 14px;
+  top: 10px;
+  right: 45px;
+  line-height: 20px;
+  transition: all 0.3s;
+}
+.tooltip::after{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+}
+
+ .share-div:hover + .share-hov{
+  display: block;
+  background-color: red;
 }
 .share-div{
 position: absolute;
