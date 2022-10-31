@@ -17,7 +17,7 @@ export default function Header() {
   </div>
    <div className='name-sec'>
  <h4 id='twitter' className='name'>Edeh Margret</h4>
- <h4 id='slack' style={{display : 'none'}}>Margret Edeh</h4>
+ <h4 id='slack' style={{display : 'none'}}>MargretEdeh</h4>
  
  {/* <div className='share-div'> */}
 {/* <img src={shareAvatar} alt='share icon'/> */}
