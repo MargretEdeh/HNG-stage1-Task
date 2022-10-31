@@ -1,5 +1,7 @@
 import React from 'react'
 import './links.css'
+import giticon from './giticon.svg'
+import slack from './slack.svg'
 
 export default function Links() {
   return (
@@ -23,6 +25,16 @@ export default function Links() {
         <div className='links' >
             <a href='https://books.zuri.team/design-rules ' id='book__design'>Zuri design rule book</a>
         </div>
+        <div className='social-section'>
+            <div className='social-logo'>
+                <img src={giticon} className='logo'/>
+                <img src={slack} className='logo'/>
+
+
+            </div>
+
+        </div>
+
     </div>
   )
 }

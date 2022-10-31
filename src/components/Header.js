@@ -1,6 +1,7 @@
 import React from 'react'
 import shareAvatar from './shareAvatar.svg'
 import Links from './Links'
+// import Footer from './Footer'
 
 export default function Header() {
   return (
@@ -18,7 +19,6 @@ export default function Header() {
   {/* <h3 id='slack' >Margret Edeh</h3> */}
 </div>
 <Links/>
-
 </div>
 
 </main>
