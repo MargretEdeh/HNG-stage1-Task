@@ -34,8 +34,8 @@ export default function Contact() {
        <textarea type='text' name='message'  className='large-inputt' placeholder='Send me a message and i will reply as soon as possible'/>
 
       </div>
-      <div className='large'>
-      <input type='checlbox' name='checkbox' className='checkbox' />
+      <div className='largee'>
+      <input type='checkbox' name='checkbox' className='checkbox' />
        <label htmlFor='checkbox'>You agree to providing your data to MargretEdeh who may contact you</label>
       </div>
      <button className='buton'>Send message</button>
