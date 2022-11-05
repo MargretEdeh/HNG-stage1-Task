@@ -48,7 +48,7 @@ export default function Contact() {
       <div className='large'>
       <label htmlFor='message'>Message</label>
        <textarea type='text' name='message'  className='large-inputt'
-        {...register("message", {required: true, maxLength:15 })} placeholder='Send me a message and i will reply as soon as possible'/>
+        {...register("message", {required: true, maxLength:51 })} placeholder='Send me a message and i will reply as soon as possible'/>
         {errors.message && <p className='red'>Please check the message</p>}
         
       </div>
